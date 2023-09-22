@@ -1,4 +1,4 @@
-import Image18 from "../assets/Image 18.png";
+import Image18 from "../assets/image18.png";
 import Play from "../assets/Play.svg";
 import Apple from "../assets/Apple.svg";
 

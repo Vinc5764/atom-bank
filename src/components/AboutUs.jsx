@@ -1,5 +1,5 @@
 import Group from "../assets/Group.png";
-import Line1 from "../assets/Line 1.png";
+import Line1 from "../assets/Line.png";
 import Instagram from "../assets/InstagramLogo.svg";
 import Facebook from "../assets/FacebookLogo.svg";
 
