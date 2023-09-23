@@ -9,7 +9,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="m:h-[17rem]  s:w-[39rem] bg-Tertiary lg:mb-[-2rem] lg:h-[16rem] ">
+    <div className="m:h-[17rem] s:w-[39rem] bg-Tertiary lg:mb-[-2rem] lg:h-[19rem]">
       <div>
         <div className="flex-col items-center justify-center">
           <div className="m:pt-8 lg:pt-[2rem]">
@@ -18,7 +18,7 @@ const Contact = () => {
               Financial transactions remotely using mobile
             </p>
           </div>
-          <div className="m:ml-8 mt-[2.5rem] flex h-[3.25rem] w-[39rem] justify-center gap-10 md:ml-[20rem] lg:ml-[10rem]">
+          <div className="m:ml-8 mt-[2.5rem] flex max-h-[3.25rem] max-w-[39rem]   gap-10 lg:ml-[20rem]">
             <form onSubmit={handleSubmit}>
               <label htmlFor="Email"></label>
               <input
@@ -31,7 +31,7 @@ const Contact = () => {
                 name="email"
               />
             </form>
-            <button className="btn-primary m:text-[1.23rem]  text-white">
+            <button className="btn-primary m:text-[1.23rem] text-white lg:w-[8.3rem]">
               Get Started
             </button>
           </div>
